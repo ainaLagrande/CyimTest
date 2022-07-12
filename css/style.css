@@ -206,7 +206,6 @@ header .header_box .header_buttons .icon_connect {
 .medias {
   width: 100%;
   background-color: #EBDABE;
-  margin-bottom: 50vh;
   position: relative;
 }
 .medias .medias_box {
@@ -227,37 +226,41 @@ header .header_box .header_buttons .icon_connect {
   margin-right: 15%;
 }
 
-* {
-  box-sizing: border-box;
+.stats {
+  margin-bottom: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-body {
-  font-family: Verdana, sans-serif;
-  margin: 0;
+.stats .stats_background {
+  margin-top: 5%;
+  padding: 5%;
+  background-color: #D7A1BA;
+  width: 65%;
+  height: 55vh;
+  display: flex;
+  align-items: center;
+  background-image: url(../assets/background.jpg);
+  background-size: 100%;
+  background-position-y: bottom;
+  filter: grayscale(100%);
 }
 
 .mySlides {
-  display: none;
-  float: left;
+  width: 500px;
   position: relative;
-  margin: 1%;
 }
-
-input[type=checkbox] {
-  margin: 0;
-  padding: 0;
-  cursor: pointer;
-}
-
-img {
+.mySlides img {
   vertical-align: middle;
+  width: 100%;
+  border: 10px #6461A7 solid;
 }
 
-/* Slideshow container */
 .slideshow-container {
-  max-width: 10000px;
+  width: 50%;
   position: relative;
-  margin: auto;
 }
 
 /* Next & previous buttons */
@@ -267,51 +270,35 @@ img {
   top: 50%;
   width: auto;
   padding: 16px;
-  margin-top: -22px;
+  margin-top: -35px;
   color: white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  left: 7%;
 }
 
-.prev {
-  left: 1%;
-}
-
-/* Position the "next button" to the right */
 .next {
-  right: 1%;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-.clear {
-  clear: both;
+  left: 173%;
+  transform: rotate(180deg);
 }
 
 /* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
 /*# sourceMappingURL=style.scss.map */
 
 /*# sourceMappingURL=style.css.map */
