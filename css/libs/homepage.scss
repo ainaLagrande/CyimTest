@@ -1,0 +1,176 @@
+// Header 
+header{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 12vh;
+    background-color: $primaryColor;
+
+    .header_box{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        img{
+            height: 100%;
+        }
+        .header_buttons{
+            width: 30%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-right: 5%;
+
+            button{
+                width: 30%;
+                height: 35px;
+                background-color: white;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: none;
+                box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+                i{
+                    margin-right: 5%;
+                    color: $secondaryColor;
+                }
+            }
+            .white{
+                width: 35%;
+            }
+            .yellow{
+                background-color: $yellow;
+                color: white;
+            }
+            .icon_connect{
+                width: 15px;
+            }
+        }
+    }
+}
+// Banner 
+.banner_gradient{
+    width: 100%;
+    height:5vh;
+    background: rgb(100,97,167);
+    background: linear-gradient(90deg, rgba(100,97,167,1) 35%, rgba(193,192,220,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .banner_gradient_box{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    p{
+        color: white;
+    }
+}
+
+// Nav 
+.nav_box{
+    width: 100%;
+    height: 6vh;
+    background-color: #F7F0E5;
+
+    nav{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        ul{
+            display: flex;
+            width: 50%;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        li{
+            list-style-type: none;
+        }
+
+    }
+}
+
+// Section news 
+.section_news{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    .section_box{
+        width: 65%;
+        height: 80vh;
+
+        article{
+            margin: 5% 0 0 10%;
+
+            .title{
+                display: flex;
+                align-items: flex-end;
+            }
+            
+            h2{
+                text-transform: uppercase;
+                font-weight: 500;
+            }
+            .line{
+                background-color:#D7A1BA;
+                color: #D7A1BA;
+                width: 120px;
+                height: 5px;
+                margin: 0px 0px 0.5% 1%;
+            }
+            h3{
+                color: $secondaryColor;
+                font-size: 24px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                margin: 2% 0px 2% 0px;
+                width: 88%;
+                line-height: 1.5em;
+
+            }
+            .data{
+                color: $secondaryColor;
+                font-size: 12px;
+            }
+            p{
+                margin: 2% 0px 0px 0px;
+                width: 85%;
+            }
+            .link_box{
+                display: flex;
+                flex-direction: column;
+                margin: 2% 0px 0px 0px;
+                line-height: 2em;
+
+                .yellow_link{
+                    width: 30%;
+                    color: $yellow;
+                    text-decoration: underline;
+                }
+            }
+            .circle_plus{
+                width: 100%;
+                padding-left: 65%;
+            }
+        }
+    }
+    .img_box{
+        position: absolute;
+        left: 60%;
+        margin-top: 6%;
+    }
+    .background_gradient{
+        width: 35%;
+        height: 80vh;
+        background: #c1c0dc;
+    }
+
+}

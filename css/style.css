@@ -1,0 +1,182 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+i {
+  font-family: FontAwesome;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+mark {
+  background-color: #C1C0DC;
+}
+
+header {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 12vh;
+  background-color: #EBDABE;
+}
+header .header_box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+header .header_box img {
+  height: 100%;
+}
+header .header_box .header_buttons {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 5%;
+}
+header .header_box .header_buttons button {
+  width: 30%;
+  height: 35px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+header .header_box .header_buttons button i {
+  margin-right: 5%;
+  color: #6461A7;
+}
+header .header_box .header_buttons .white {
+  width: 35%;
+}
+header .header_box .header_buttons .yellow {
+  background-color: #FFA600;
+  color: white;
+}
+header .header_box .header_buttons .icon_connect {
+  width: 15px;
+}
+
+.banner_gradient {
+  width: 100%;
+  height: 5vh;
+  background: rgb(100, 97, 167);
+  background: linear-gradient(90deg, rgb(100, 97, 167) 35%, rgb(193, 192, 220) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner_gradient .banner_gradient_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.banner_gradient p {
+  color: white;
+}
+
+.nav_box {
+  width: 100%;
+  height: 6vh;
+  background-color: #F7F0E5;
+}
+.nav_box nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav_box nav ul {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav_box nav li {
+  list-style-type: none;
+}
+
+.section_news {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.section_news .section_box {
+  width: 65%;
+  height: 80vh;
+}
+.section_news .section_box article {
+  margin: 5% 0 0 10%;
+}
+.section_news .section_box article .title {
+  display: flex;
+  align-items: flex-end;
+}
+.section_news .section_box article h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.section_news .section_box article .line {
+  background-color: #D7A1BA;
+  color: #D7A1BA;
+  width: 120px;
+  height: 5px;
+  margin: 0px 0px 0.5% 1%;
+}
+.section_news .section_box article h3 {
+  color: #6461A7;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 2% 0px 2% 0px;
+  width: 88%;
+  line-height: 1.5em;
+}
+.section_news .section_box article .data {
+  color: #6461A7;
+  font-size: 12px;
+}
+.section_news .section_box article p {
+  margin: 2% 0px 0px 0px;
+  width: 85%;
+}
+.section_news .section_box article .link_box {
+  display: flex;
+  flex-direction: column;
+  margin: 2% 0px 0px 0px;
+  line-height: 2em;
+}
+.section_news .section_box article .link_box .yellow_link {
+  width: 30%;
+  color: #FFA600;
+  text-decoration: underline;
+}
+.section_news .section_box article .circle_plus {
+  width: 100%;
+  padding-left: 65%;
+}
+.section_news .img_box {
+  position: absolute;
+  left: 60%;
+  margin-top: 6%;
+}
+.section_news .background_gradient {
+  width: 35%;
+  height: 80vh;
+  background: #c1c0dc;
+}
+
+/*# sourceMappingURL=style.scss.map */
+
+/*# sourceMappingURL=style.css.map */
