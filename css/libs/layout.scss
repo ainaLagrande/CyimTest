@@ -22,3 +22,16 @@ a{
 mark{
     background-color: #C1C0DC;
 }
+.yellow_link{
+    width: 30%;
+    color: $yellow;
+    text-decoration: underline;
+}
+.data{
+    color: $secondaryColor;
+    font-size: 12px;
+}
+.circle_plus{
+    width: 100%;
+    padding-left: 65%;
+}
