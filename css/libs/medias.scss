@@ -1,0 +1,25 @@
+// Medias 
+.medias{
+    width: 100%;
+    background-color: $primaryColor;
+    position: relative;
+
+    .medias_box{
+        display: flex;
+        justify-content: space-around;
+        padding:2% 0 2% 0;
+
+        video{
+            width: 45%;
+            position: relative;
+            cursor: pointer;
+        }
+        .media_column{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 25vh;
+            margin-right: 15%;
+        }
+    }
+}

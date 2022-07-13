@@ -1,0 +1,29 @@
+.partners{
+    margin-bottom: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+
+    h3{
+      color: #9B9B9B;
+      font-weight: 400;
+      font-size: 20px;
+
+    }
+
+    .partners_box{
+    margin-top: 2%;
+    // border: 3px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+
+    }
+  
+  .next svg {
+    transform: rotate(180deg);
+  }
+}
