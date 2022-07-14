@@ -816,7 +816,7 @@ footer .mention i {
   background-color: #FFA600;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   html, body {
     overflow-x: hidden;
   }
@@ -1043,6 +1043,100 @@ footer .mention i {
   }
   .registration_page .inputs {
     width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1224px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .nav_box nav ul {
+    width: 90%;
+  }
+
+  .section_news .section_box {
+    height: 50vh;
+  }
+  .section_news .background_gradient {
+    height: 100%;
+  }
+
+  .medias .medias_box .media_column {
+    height: 20vh;
+  }
+
+  .stats .stats_background {
+    width: 90%;
+    height: 50vh;
+  }
+
+  .mySlides {
+    width: 350px;
+  }
+
+  .slideshow-container .prev {
+    left: 5%;
+  }
+  .slideshow-container .next {
+    left: 82%;
+  }
+
+  .stats_info {
+    height: 80%;
+  }
+
+  .partners h3 {
+    font-size: 24px;
+  }
+  .partners .partners_box {
+    width: 90%;
+  }
+
+  .contact_us {
+    justify-content: center;
+  }
+  .contact_us p {
+    font-size: 24px;
+  }
+  .contact_us button {
+    font-size: 18px;
+  }
+  .contact_us .contact_us_item {
+    width: 100%;
+  }
+
+  footer {
+    align-items: center;
+  }
+  footer .footer_box {
+    width: 90%;
+  }
+  footer .footer_nav_box {
+    width: 70%;
+  }
+
+  .login_registration_page {
+    height: 40vh;
+  }
+  .login_registration_page .login_items_box {
+    width: 100%;
+  }
+  .login_registration_page .login_items_box .login_item:nth-child(2) button {
+    margin-top: 5%;
+  }
+
+  .login_page {
+    height: 35vh;
+  }
+  .login_page .inputs {
+    width: 80%;
+  }
+
+  .registration_page {
+    height: 40vh;
+  }
+  .registration_page .inputs {
+    width: 80%;
   }
 }
 /*# sourceMappingURL=style.scss.map */

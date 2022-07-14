@@ -1,5 +1,5 @@
 // Mobile 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     // Header 
     html,body{
         overflow-x: hidden;
@@ -260,5 +260,123 @@
     }
 }
 
+// Tablettes 
 @media only screen and (min-width : 768px) and (max-width : 1224px) {
+    html,body{
+        overflow-x: hidden;
+    }
+    // Nav 
+    .nav_box{
+        nav{
+            ul{
+                width: 90%;
+            }
+        }
+    }
+    // Section news 
+    .section_news{
+        .section_box{
+            height: 50vh;
+        }
+        .background_gradient{
+            height: 100%;
+        }
+    }
+
+    // Medias 
+    .medias{
+        .medias_box{
+            .media_column{
+                height: 20vh;
+            }
+        }
+    }
+    // Stats 
+    .stats{
+        .stats_background {
+            width: 90%;
+            height: 50vh;
+        }
+    }
+
+    // Caroussel
+    .mySlides {
+        width: 350px;
+    }
+    .slideshow-container {
+        .prev {
+            left: 5%;
+        }
+        .next {
+            left: 82%;
+        }
+    }
+    .stats_info{
+        height: 80%;
+    }
+
+    // Partners 
+    .partners{
+        h3{
+          font-size: 24px;
+        }
+        .partners_box{
+          width: 90%;
+        }
+    }
+    // Footer 
+    .contact_us{
+        justify-content: center;
+        p{
+            font-size: 24px;
+        }
+        button{
+            font-size: 18px;
+        }
+        .contact_us_item{
+            width: 100%;
+        }
+    }
+    footer{
+        align-items: center;
+        .footer_box{
+            width: 90%;
+        }
+        .footer_nav_box{
+            width: 70%;
+        }
+    }
+    // Login/Registration 
+    .login_registration_page{
+        height: 40vh;
+
+        .login_items_box{
+            width: 100%;
+    
+            .login_item{
+                &:nth-child(2){
+                    button{
+                        margin-top: 5%;
+                    }
+                }
+            }
+        }
+    }
+    // Login 
+    .login_page{
+        height: 35vh;
+        .inputs{
+            width: 80%;
+        }
+    }
+    // Registrate 
+    .registration_page{
+        height: 40vh;
+        .inputs{
+            width: 80%;
+        }
+    }
+
+    
+
 }
