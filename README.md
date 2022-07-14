@@ -1,24 +1,24 @@
 # Getting Started with CYIM Test Project
 
 **Useful links:**
+- [Rendu visuel ](https://ainalagrande.github.io/CyimTest/)
 - [Adobe mock-up 🖼️](https://xd.adobe.com/view/1ae16609-6859-43e9-ab4e-5d697e85b003-4fb2/)
 
-## Dependencies:
+## Stack Technique:
 - HTML
 - CSS
 - SASS
 - JS
 - PHP
 - MySQL
-Recommended Text Editor : Visual Studio Code
 
+Recommended Text Editor : Visual Studio Code
 
 ## Installing Database
 Insert the database file into your phpmyadmin database
 Once you run the `database file` , you should have one user in your database:
 
 ### Jonh Doe
-
 - First Name: `Jonh`
 - Last Name: `Doe`
 - Email: `jonh@gmail.com`
@@ -27,12 +27,10 @@ Once you run the `database file` , you should have one user in your database:
 ## Installing Front-End
 
 - Clone, fork or download  this repository : `https://github.com/ainaLagrande/CyimTest`
-
 ```
 cd CyimTest
 ```
 - Launch front-end on port localhost (default port) :
-
 ### URL availables :
  - http://localhost 
  - http://localhost/Cyim/index.php?page=login_registration

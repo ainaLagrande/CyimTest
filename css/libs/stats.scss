@@ -127,6 +127,7 @@
     }
     button{
         @include button;
+        height: 35px;
         background-color: $tertionary;
         color: white;
         width: 45%;

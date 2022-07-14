@@ -84,6 +84,20 @@ li {
   color: green;
 }
 
+.link-animation::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #FFA600;
+  transition: width 0.3s;
+}
+
+.link-animation:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
 header {
   display: flex;
   position: relative;
@@ -480,6 +494,7 @@ header .header_box .header_buttons .icon_connect {
   border: none;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   cursor: pointer;
+  height: 35px;
   background-color: #FFA600;
   color: white;
   width: 45%;

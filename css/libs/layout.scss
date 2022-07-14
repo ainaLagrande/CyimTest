@@ -77,7 +77,18 @@ li{
         color: green;
     }
 }
-
+.link-animation::after{
+    content:'';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: $tertionary;
+    transition:width .3s;
+}
+.link-animation:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
 @mixin button{
     padding: 15px;
     height: 25%;
