@@ -3,6 +3,7 @@
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
 
     .section_box{
         width: 65%;
@@ -52,24 +53,33 @@
         }
     }
     .img_box{
+        height: 400px;
         position: absolute;
         left: 60%;
         margin-top: 6%;
+        z-index: 1;
+
+        img{
+            object-fit: cover;
+        }
     }
     .background_gradient{
+        position: absolute;
+        right: 0;
         width: 35%;
-        height: 100vh;
-        background: #c1c0dc;
+        height: 185%;
+        background-image: url(../assets/bg-home-jfhod.png);
+        z-index: -1;
     }
 }
 // Asides 
 .aside_box{
-    position: absolute;
+    // position: absolute;
     top: 85%;
     display: flex;
     justify-content: space-around;
     width: 100%;
-    padding-bottom: 500px;
+    padding-bottom: 5%;
 
     .news_aside{
         width: 40%;
@@ -83,7 +93,7 @@
         color: $secondaryColor;
     }
     .circle_plus{
-        padding-left: 95%;
+        margin-left: 15%;
     }
 }
 

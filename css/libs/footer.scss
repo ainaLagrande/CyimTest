@@ -5,13 +5,13 @@
     display: flex;
     align-items: center;
     color: white;
-    height: 7vh;
+    height: 10vh;
 
     p{
-        font-size: 20px;
+        font-size: 17px;
     }
     button{
-        width: 20%;
+        padding: 15px;
         height: 35px;
         background-color: white;
         border-radius: 5px;
@@ -23,6 +23,11 @@
         color: #4A4A4A;
         font-weight: 200;
         font-size: 15px;
+
+        &:hover{
+            background-color:#F7F0E5;
+        }
+
     }
     .contact_us_box{
         display: flex;

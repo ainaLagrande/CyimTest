@@ -12,8 +12,9 @@
         margin-top: 5%;
         position: relative;
         z-index: 1;
-        width: 65%;
-        height: 50vh;
+        width: 80%;
+        height: 90vh;
+        padding: 0% 3% 0% 3%;
       }
       
       .stats_background::before {
@@ -27,6 +28,7 @@
         // filter: grayscale(100%);
         z-index: -1;
         background: url(../assets/background.jpg);
+
         background-size: 100%;
         background-position-y:bottom;
       }
@@ -37,7 +39,6 @@
 .mySlides {
     display: none;
     width: 500px;
-
     
     img {
         width: 100%;
@@ -55,6 +56,7 @@
 
 }
 .slideshow-container {
+    position: relative;
     .prev, .next {
         cursor: pointer;
         position: absolute;
@@ -62,17 +64,16 @@
         width: auto;
         padding: 16px;
         margin-top: -35px;
-        color: white;
         font-weight: bold;
         font-size: 18px;
         transition: 0.6s ease;
         border-radius: 0 3px 3px 0;
         user-select: none;
-        left: 5%;
+        left: 7%;
   }
   
   .next {
-    left: 43%;
+    left: 48%;
     transform: rotate(180deg);
   }
   
@@ -91,14 +92,12 @@
 
 .stats_info{
 
-    height: 90%;
-    // border: #D7A1BA 3px solid;
-    width: 35%;
+    height: 100%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-right: 5%;
 
     h3{
         font-size: 30px;
@@ -138,5 +137,9 @@
         background-color: $yellow;
         color: white;
         font-size: 15px;
+
+        &:hover{
+            background-color:#fed485;
+        }
     }
 }

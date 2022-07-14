@@ -3,7 +3,7 @@ header{
     display: flex;
     position: relative;
     width: 100%;
-    height: 12vh;
+    height: 15vh;
     background-color: $primaryColor;
 
     .header_box{
@@ -21,8 +21,11 @@ header{
             align-items: center;
             margin-right: 5%;
 
+            .menu{
+                display: none;
+            }
             button{
-                width: 30%;
+                padding: 15px;
                 height: 35px;
                 background-color: white;
                 border-radius: 5px;
@@ -32,8 +35,21 @@ header{
                 border: none;
                 box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
+                &:nth-child(1){
+                    &:hover{
+                        background-color:#F7F0E5;
+                    }
+                }
+                &:nth-child(2){
+                    &:hover{
+                        background-color:#fed485;
+
+                    }
+                }
+                
                 a{
                     width: 100%;
+                    
                 }
                 i{
                     margin-right: 5%;
@@ -45,7 +61,10 @@ header{
             }
             .yellow{
                 background-color: $yellow;
-                color: white;
+                a{
+                    color: white;
+                }
+
             }
             .icon_connect{
                 width: 15px;
@@ -56,7 +75,7 @@ header{
 // Banner 
 .banner_gradient{
     width: 100%;
-    height:5vh;
+    height:7vh;
     background: rgb(100,97,167);
     background: linear-gradient(90deg, rgba(100,97,167,1) 35%, rgba(193,192,220,1) 100%);
     display: flex;
@@ -76,7 +95,7 @@ header{
 // Nav 
 .nav_box{
     width: 100%;
-    height: 6vh;
+    height: 9vh;
     background-color: #F7F0E5;
 
     nav{
@@ -87,7 +106,7 @@ header{
 
         ul{
             display: flex;
-            width: 50%;
+            width: 70%;
             justify-content: space-around;
             align-items: center;
 

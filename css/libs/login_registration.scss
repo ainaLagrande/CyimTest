@@ -1,5 +1,5 @@
 .login_registration_page{
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -29,11 +29,11 @@
     .login_items_box{
         display: flex;
         justify-content: space-around;
-        width: 80%;
-        margin-top: 3.5%;
+        width: 70%;
+        margin-top: 5%;
 
         .login_item{
-            width: 30%;
+            width: 45%;
             height: 200px;
             padding: 20px;
             line-height: 2em;
@@ -50,6 +50,24 @@
                     width: 75%;
                     text-align: center;
                 }
+                button{
+                    &:hover{
+                        background-color:#EFD9E3;
+                    }
+                    &:hover a{
+                        color: #D7A1B1;
+                    }
+                }
+            }
+            &:nth-child(1){
+                button{
+                    &:hover{
+                        background-color:#C1C0DC;
+                    }
+                    &:hover a{
+                        color: $secondaryColor;
+                    }
+                }
             }
 
 
@@ -65,9 +83,10 @@
             box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
             cursor: pointer;
             font-size: 18px;
-             a{
+            a{
                 color: white;
-             }
+            }
+
         }
         .yellow_link{
             width: 100%;

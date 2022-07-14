@@ -1,0 +1,264 @@
+// Mobile 
+@media (max-width: 768px) {
+    // Header 
+    html,body{
+        overflow-x: hidden;
+    }
+    header{
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 32vh;
+        padding-top: 10%;
+        background-image: url(../assets/JFHOD-2023_Logo_mobile.jpg);
+        background-repeat: no-repeat;
+
+        .header_box{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            img{
+                display: none;
+            }
+            .header_buttons{
+                width: 100%;
+                background: rgb(100,97,167);
+                background: linear-gradient(90deg, rgba(100,97,167,1) 35%, rgba(193,192,220,1) 100%);
+                margin-right: 0%;
+                padding: 2% ;
+                justify-content: space-between;
+
+                .menu{
+                    display: block;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: transparent;
+                    border: 1px solid white;
+                    border-radius: 20px;
+                    padding: 0 15px 0 15px;
+                    height: 25px;
+                    a{
+                        color: white;
+                    }
+                }
+                button{
+                    padding: 1%;
+                    &:nth-child(2){
+                        display: none;
+                    }
+                    a{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    // Banner 
+    .banner_gradient{
+        display: none;
+    }
+
+    // Nav 
+    .nav_box{
+        display: none;
+    }
+
+    // Section news 
+    .section_news{
+        width: 100%;
+
+        .section_box{
+            width: 100%;
+
+        }
+        .yellow_link{
+            width: 100%;
+        
+        }
+        .img_box{
+            display: none;
+        }
+        .background_gradient{
+            display: none;
+        }
+    }
+    // Asides 
+    .aside_box{
+        flex-direction: column;
+        align-items: center;
+        .news_aside{
+            width: 80%;
+        }
+        .circle_plus{
+            // margin-left: 40%;
+        }
+    }
+
+    // Medias 
+    .medias{
+        width: 100%;
+        background-color: WHITE;
+
+        .medias_box{
+            flex-direction: column;
+            align-items: center;
+
+            .video_box{
+                width: 90%;
+            }
+            .media_column{
+                height: 35vh;
+                margin-right: 0%;
+                margin-top: 5%;
+            }
+        }
+    }
+
+    // Stats 
+    .stats{
+        margin-bottom: 25%;
+        .stats_background {
+            width: 90%;
+        }
+        .stats_background::before { 
+            height: 100vh;
+        }
+    }
+
+    // Caroussel
+    .stats_box{
+        flex-direction: column-reverse;
+    }
+    .slideshow-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        .prev {
+            left: 3%;
+        }
+        .next {
+            left: 82%;
+        }
+    }
+    .stats_info{
+        width: 100%;
+        button{
+            position: absolute;
+            top: 102%;
+        }
+    }
+    // Partners 
+    .partners{    
+        .partners_box{
+            margin-top: 8%;
+          width: 90%;
+        }
+        .partners_img{
+            display: none;
+        }
+        .partners_mobil_img{
+            display: block;
+        }
+    }
+    // Footer 
+    .contact_us{
+        justify-content: center;
+        height: 18vh;
+        .contact_us_box{
+            width: 80%;
+        }
+        .contact_us_item{
+            flex-direction: column;
+            width: 100%;
+            line-height: 3em;
+        }
+    }
+
+    footer{
+        .footer_box{
+            flex-direction: column;
+            align-items: center;
+        }
+        .logo{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .footer_nav_box{
+            width: 76%;
+            .footer_nav{
+                margin-top: 10%;
+                ul{
+                    justify-content: center;
+                }
+            }
+    
+            .follow_us_nav
+            {
+                margin-top: 5%; 
+                ul{
+                    display: flex;
+                    width: 100%;
+                    justify-content: center;
+                }
+                li{
+                    margin-left: 3%;
+                }
+                i{
+                    color: $secondaryColor;
+                }
+            }
+        }
+        .mention{
+            padding: 8%;
+        }
+    }
+    // Login registration 
+    .login_registration_page{
+
+        .login_items_box{
+            flex-direction: column;
+            width: 80%;
+    
+            .login_item{
+                width: 95%;
+                text-align: center;
+    
+                &:nth-child(2){
+                    justify-content: space-around;
+                }
+                &:nth-child(1){
+                    button{
+                        &:hover{
+                            background-color:#C1C0DC;
+                        }
+                        &:hover a{
+                            color: $secondaryColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Login 
+    .login_page{
+        justify-content: center;
+        .inputs{
+            width: 100%;
+        }
+    }
+    // Registrate 
+    .registration_page{
+        justify-content: center;
+        .inputs{
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1224px) {
+}

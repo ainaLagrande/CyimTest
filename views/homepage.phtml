@@ -1,7 +1,7 @@
 <!-- Actualités  -->
 
-<section class="section_news">
-    <div class="section_box">
+<section class="section_news ">
+    <div class="section_box reveal">
         <article>
             <div class="title">
                 <h2>Actualités</h2><div class="line"></div>
@@ -21,10 +21,10 @@
                 <a href="#" class="yellow_link">Lien sur une ligne1</a>
                 <a href="#" class="yellow_link">Lien sur une ligne2</a>
             </div>
-            <svg class="circle_plus" width="20" height="30" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"/></svg>
+            <svg class="circle_plus" xmlns="http://www.w3.org/2000/svg" width="20" height="30"viewBox="0 0 512 512"><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM256 368C269.3 368 280 357.3 280 344V280H344C357.3 280 368 269.3 368 256C368 242.7 357.3 232 344 232H280V168C280 154.7 269.3 144 256 144C242.7 144 232 154.7 232 168V232H168C154.7 232 144 242.7 144 256C144 269.3 154.7 280 168 280H232V344C232 357.3 242.7 368 256 368z"/></svg>
         </article>
     </div>
-    <div class="img_box">
+    <div class="img_box reveal">
         <img src="./assets/affiche.jpg" alt="affiche">
     </div>
     <div class="background_gradient"></div>
@@ -32,7 +32,7 @@
     <!-- Aside  -->
 
     <div class="aside_box">
-        <aside class="news_aside">
+        <aside class="news_aside reveal">
             <h4>Nom de l'actualité JFHOD sur deux lignes lorem ipsum dolor sit amet,consectetur adipiscing elit spiritum ....</h4>
             <span class="data"><i class="fa-solid fa-clock"></i> 01 mai 2022</span>
             <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Sed efficitur uma commodo rutrum ultricies.Donec gravida sed risus in.</p>
@@ -43,7 +43,7 @@
 
         </aside>
 
-        <aside class="news_aside">
+        <aside class="news_aside reveal">
             <h4>Nom de l'actualité JFHOD sur deux lignes lorem ipsum dolor sit amet,consectetur adipiscing elit spiritum ....</h4>
             <span class="data"><i class="fa-solid fa-clock"></i> 01 mai 2022</span>
             <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.Sed efficitur uma commodo rutrum ultricies.Donec gravida sed risus in.</p>
@@ -57,13 +57,39 @@
 
 <!-- Medias  -->
 
-<section class="medias">
+<section class="medias reveal">
     <div class="medias_box">
-        <video src="./assets/Les JFHOD 2022.mp4" poster="./assets/poster_video.jpg"></video>
+        <div class="video_box">
+           <video src="./assets/Les JFHOD 2022.mp4" poster="./assets/img-test-jfhod.jpg"></video>
+           <div class="svg_box">
+                <svg width="100" height="100"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M188.3 147.1C195.8 142.8 205.1 142.1 212.5 147.5L356.5 235.5C363.6 239.9 368 247.6 368 256C368 264.4 363.6 272.1 356.5 276.5L212.5 364.5C205.1 369 195.8 369.2 188.3 364.9C180.7 360.7 176 352.7 176 344V167.1C176 159.3 180.7 151.3 188.3 147.1V147.1zM512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z" fill="#C3C2E1"/></svg>
+           </div>
+        </div>
 
         <div class="media_column">
-            <img src="./assets/medias1.jpg" alt="Mes jfhod image">
-            <img src="./assets/medias2.jpg" alt="Espace partenaire">
+            <div class="media_item">
+                <img class="media_img" src="./assets/bg-bloc-mes-jfhod.png" alt="Mes jfhod image">
+                <div class="media_txt">
+                    <h3>Mes JFHOD</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="46.622" height="62.581" viewBox="0 0 46.622 62.581">
+                        <g id="noun-account-1402829" transform="translate(-176.294 -46.836)">
+                            <path id="Tracé_34529" data-name="Tracé 34529" d="M176.295,443.622a4.1,4.1,0,0,0,4.1,4.1h38.423a4.094,4.094,0,0,0,4.1-4.1v-6.045H176.294Zm22.354-2.746a1.413,1.413,0,0,1,1.927,0,1.378,1.378,0,0,1,.4.97,1.353,1.353,0,0,1-1.367,1.367,1.432,1.432,0,0,1-.97-.4,1.369,1.369,0,0,1,.014-1.941Z" transform="translate(0 -338.304)" fill="white"/>
+                            <path id="Tracé_34530" data-name="Tracé 34530" d="M218.825,46.836H180.4a4.111,4.111,0,0,0-4.1,4.1v45.6h46.621v-45.6a4.1,4.1,0,0,0-4.1-4.1Zm-23.336,5.809h8.254a1.367,1.367,0,1,1,0,2.733h-8.254a1.367,1.367,0,1,1,0-2.733Zm4.124,10.574a7.515,7.515,0,1,1-7.515,7.515A7.52,7.52,0,0,1,199.613,63.219Zm12.338,28.462a1.362,1.362,0,0,1-1.367,1.367H188.641a1.371,1.371,0,0,1-1.367-1.367V87.3a7.676,7.676,0,0,1,7.857-7.461h8.964a7.676,7.676,0,0,1,7.857,7.461Z" transform="translate(-0.008)" fill="white"/>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="media_item">
+                <img class="media_img" src="./assets/bg-bloc-partenaires.png" alt="Espace partenaire">
+                <div class="media_txt">
+                    <h3>Espace PARTENAIRES</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="76.967" height="50.731" viewBox="0 0 76.967 50.731">
+                        <path id="Tracé_34542" data-name="Tracé 34542" d="M180.566,136.274a5.407,5.407,0,0,0-1.105-3.33l-6.1-7.8a5.246,5.246,0,0,0-4.129-1.96,5.086,5.086,0,0,0-2.7.756l-5.946,3.7a5.428,5.428,0,0,1-2.733.666,4.95,4.95,0,0,1-2.1-.411l-5.823-2.82a7.018,7.018,0,0,0-3.039-.639,7.568,7.568,0,0,0-4.274,1.232l-.68.476-2.313-1.152a8.722,8.722,0,0,0-3.792-.78,9.07,9.07,0,0,0-3.481.639l-3.966,1.692a8.134,8.134,0,0,1-5.383,0l-3.97-1.693a5.775,5.775,0,0,0-2.265-.442,6.892,6.892,0,0,0-2.578.506,5.863,5.863,0,0,0-2.174,1.5L104.8,134.5a4.693,4.693,0,0,0,.459,6.708L112,146.959l-3.2,3.336a4.765,4.765,0,0,0,.163,6.748l.649.617a4.764,4.764,0,0,0,2.114,1.146,4.711,4.711,0,0,0,.888,5.722h0l.651.619a4.826,4.826,0,0,0,5.181.938,4.716,4.716,0,0,0,1.326,2.309l.651.619a4.816,4.816,0,0,0,5.968.512,4.73,4.73,0,0,0,1.247,2.049l.651.619a4.823,4.823,0,0,0,6.781-.16l2.826-2.951,3.84,3.554a4.819,4.819,0,0,0,6.776-.244l.613-.657a4.729,4.729,0,0,0,1.075-1.943l1.488,1.373a4.826,4.826,0,0,0,6.78-.25l.609-.656a4.715,4.715,0,0,0,1.223-2.635,4.693,4.693,0,0,0,4.708-1.351l.611-.656a4.749,4.749,0,0,0,1.277-3.248,4.9,4.9,0,0,0-.131-1.071,4.753,4.753,0,0,0,2.876-1.456l.613-.657a4.772,4.772,0,0,0-.249-6.748l-1.146-1.059L179.2,139.938a5.451,5.451,0,0,0,1.361-3.664Zm-69.8,18.886a2.169,2.169,0,0,1-.075-3.067l6.551-6.836a2.2,2.2,0,0,1,3.084-.074l.647.617a4.107,4.107,0,0,1,.672,1.573,2.159,2.159,0,0,1-.387,1.227l-7.07,7.368a2.206,2.206,0,0,1-1.267.4,2.175,2.175,0,0,1-1.5-.595Zm5.806,8.7a2.172,2.172,0,0,1-1.5-.595l-.651-.619h0a2.175,2.175,0,0,1-.073-3.067s8.732-9.089,8.805-9.177a2.187,2.187,0,0,1,3.014-.015l.651.619a2.172,2.172,0,0,1,.073,3.068l-8.735,9.119a2.177,2.177,0,0,1-1.578.667Zm7.158,3.866a2.17,2.17,0,0,1-1.5-.6l-.652-.619a2.155,2.155,0,0,1-.19-2.921l6.081-6.347a2.179,2.179,0,0,1,2.96.03l.652.619a2.172,2.172,0,0,1,.073,3.067l-5.844,6.1a2.171,2.171,0,0,1-1.578.668Zm9.442,2.512a2.2,2.2,0,0,1-3.082.073l-.651-.619a2.171,2.171,0,0,1-.073-3.067l3.688-3.851a2.2,2.2,0,0,1,3.084-.073l.652.619a2.174,2.174,0,0,1,.071,3.067Zm35.164-12.822-.611.656a2.2,2.2,0,0,1-3.081.112l-10.3-9.527-1.781,1.908,11.027,10.216a2.17,2.17,0,0,1,.113,3.068l-.609.656a2.2,2.2,0,0,1-3.08.113l-10.306-9.527-1.78,1.908,9.145,8.457a2.168,2.168,0,0,1,.089,3.036l-.611.656a2.2,2.2,0,0,1-3.083.114l-9.127-8.427h0l0,0-1.777,1.911,0,0,.034.032,4.571,4.219a2.147,2.147,0,0,1,.04,2.97l-.611.657a2.192,2.192,0,0,1-3.076.111l-3.98-3.685a4.7,4.7,0,0,0-.943-5.612l-.652-.619a4.794,4.794,0,0,0-3.307-1.313c-.092,0-.184.021-.275.026,0-.022.006-.045.006-.066,0-1.255-1.482-3.457-1.482-3.457l-.651-.617a4.781,4.781,0,0,0-2.414-1.23,4.705,4.705,0,0,0-1.2-5.036l-.651-.619a4.8,4.8,0,0,0-3.308-1.315c-.138,0-.275.028-.412.04a4.749,4.749,0,0,0-1.468-3.307h0l-.649-.617a4.821,4.821,0,0,0-6.781.159l-1.546,1.614-6.85-5.842a2.1,2.1,0,0,1-.2-3l7.227-8.094a3.293,3.293,0,0,1,1.208-.815,4.305,4.305,0,0,1,1.588-.312,3.165,3.165,0,0,1,1.235.232l3.968,1.693a10.684,10.684,0,0,0,7.444,0l3.966-1.692a6.5,6.5,0,0,1,2.451-.428,6.227,6.227,0,0,1,2.62.5l1.059.528-4.045,2.843a4.672,4.672,0,0,0-1.066,6.632l0,0,.534.718a5.222,5.222,0,0,0,4.178,2.046,5.074,5.074,0,0,0,2.613-.712l2.419-1.453a3.98,3.98,0,0,1,2.009-.489,4.179,4.179,0,0,1,2.366.666l6.692,4.8a66.9,66.9,0,0,1,5.26,4.292l7.746,7.162a2.171,2.171,0,0,1,.113,3.065Zm8.926-19.219L166.944,149.6l-4.685-4.331a68.919,68.919,0,0,0-5.511-4.5l-6.691-4.8a6.762,6.762,0,0,0-3.9-1.156,6.589,6.589,0,0,0-3.362.863l-2.417,1.453a2.45,2.45,0,0,1-1.262.337,2.611,2.611,0,0,1-2.077-.993l-.533-.717,0,0a2.073,2.073,0,0,1,.475-2.951l7.152-5.025a5.032,5.032,0,0,1,2.764-.754,4.43,4.43,0,0,1,1.894.377l5.823,2.82a7.521,7.521,0,0,0,3.24.674,7.965,7.965,0,0,0,4.119-1.063l5.948-3.7a2.468,2.468,0,0,1,1.31-.359,2.639,2.639,0,0,1,2.063.956l6.1,7.8a2.841,2.841,0,0,1,.555,1.731,2.884,2.884,0,0,1-.686,1.92Z" transform="translate(-103.599 -123.18)" fill="white"/>
+                    </svg>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
@@ -71,7 +97,7 @@
 
 <!-- Stats  -->
 
-<section class="stats">
+<section class="stats reveal">
     <div class="stats_background">
           <!-- Caroussel  -->
         <div class="stats_box">
@@ -81,12 +107,12 @@
                 </div>
 
                 <div class="mySlides fade">
-                    <img src="./assets/caroussel2.jpg">
+                    <img src="./assets/img-test-jfhod.jpg">
                 </div>
 
                 <a class="prev" onclick="plusSlides(-1)">
                     <svg width="20" height="60" viewBox="0 0 48 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M47.04 7.78312L39.92 0.703125L0.359985 40.3031L39.96 79.9031L47.04 72.8231L14.52 40.3031L47.04 7.78312Z" fill="white"/>
+                        <path d="M47.04 7.78312L39.92 0.703125L0.359985 40.3031L39.96 79.9031L47.04 72.8231L14.52 40.3031L47.04 7.78312Z" fill="#9B9B9B"/>
                     </svg>
                 </a>    
 
@@ -100,7 +126,9 @@
                 <h3>Les JFHOD ce sont ...</h3>
                 <div class="stats_icons">
                     <div class="icon_item">
-                    <i class="fa-thin fa-user fa-2x"></i>
+                        <svg width="35" height="60" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                            <path d="M224 256c70.7 0 128-57.31 128-128S294.7 0 224 0C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3c-95.73 0-173.3 77.6-173.3 173.3C0 496.5 15.52 512 34.66 512H413.3C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304zM479.1 320h-73.85C451.2 357.7 480 414.1 480 477.3C480 490.1 476.2 501.9 470 512h138C625.7 512 640 497.6 640 479.1C640 391.6 568.4 320 479.1 320zM432 256C493.9 256 544 205.9 544 144S493.9 32 432 32c-25.11 0-48.04 8.555-66.72 22.51C376.8 76.63 384 101.4 384 128c0 35.52-11.93 68.14-31.59 94.71C372.7 243.2 400.8 256 432 256z" fill="#6461A7"/>
+                        </svg>
                         <span>1000</span>
                         <p>Participants</p>
                     </div>
@@ -112,13 +140,15 @@
                     </div>
 
                     <div class="icon_item">
-                        <i class="fa-thin fa-user fa-2x"></i>
+                        <i class="fa-solid fa-microphone fa-2x"></i>
                         <span>1000</span>
                         <p>Sessions</p>
                     </div>
 
                     <div class="icon_item">
-                        <i class="fa-thin fa-user fa-2x"></i>
+                        <svg width="35" height="40" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                            <path d="M512 32H64C28.65 32 0 60.65 0 96v320c0 35.35 28.65 64 64 64h448c35.35 0 64-28.65 64-64V96C576 60.65 547.3 32 512 32zM176 128c35.35 0 64 28.65 64 64s-28.65 64-64 64s-64-28.65-64-64S140.7 128 176 128zM272 384h-192C71.16 384 64 376.8 64 368C64 323.8 99.82 288 144 288h64c44.18 0 80 35.82 80 80C288 376.8 280.8 384 272 384zM496 320h-128C359.2 320 352 312.8 352 304S359.2 288 368 288h128C504.8 288 512 295.2 512 304S504.8 320 496 320zM496 256h-128C359.2 256 352 248.8 352 240S359.2 224 368 224h128C504.8 224 512 231.2 512 240S504.8 256 496 256zM496 192h-128C359.2 192 352 184.8 352 176S359.2 160 368 160h128C504.8 160 512 167.2 512 176S504.8 192 496 192z" fill="#6461A7"/>
+                        </svg>
                         <span>1000</span>
                         <p>Résumés</p>
                     </div>
@@ -131,7 +161,7 @@
 
 <!-- Partners  -->
 
-<section class="partners">
+<section class="partners reveal">
     <h3>Les partenaires scientifiques</h3>
     <div class="partners_box">
         <a class="prev">
@@ -140,7 +170,8 @@
             </svg>
         </a> 
 
-        <img src="./assets/partners.jpg" alt="logo de partenaires">
+        <img class ="partners_img" src="./assets/partners.jpg" alt="logo de partenaires">
+        <img class ="partners_mobil_img" src="./assets/partners_mobil.jpg" alt="logo de partenaires">
         
         <a class="next">
             <svg width="20" height="60" viewBox="0 0 48 80" fill="none" xmlns="http://www.w3.org/2000/svg">

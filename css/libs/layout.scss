@@ -1,11 +1,14 @@
 $primaryColor: #EBDABE;
 $secondaryColor:#6461A7;
 $yellow:#FFA600;
+$secondaryCaolor:rgb(100, 97, 167);
+$yellsow:rgb(255, 166, 0);
+
+
 
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 
 *{
-    // -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -19,7 +22,7 @@ a{
     text-decoration: none;
     color: initial;
 }
-button, li, i{
+button, li, i,svg{
     cursor: pointer;
 }
 mark{
@@ -29,6 +32,11 @@ mark{
     width: 30%;
     color: $yellow;
     text-decoration: underline;
+
+    &:hover{
+        color: $secondaryColor;
+    }
+
 }
 .data{
     color: $secondaryColor;
@@ -50,9 +58,32 @@ li{
 .pink{
     background-color: #D7A1BA;
 }
+
 .formErrors{
     color: red;
 }
 .formSucces{
     color: green;
 }
+
+.reveal {
+    opacity: 0;
+    transform:translateY(-30px);
+}
+.reveal-visible
+{
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s;
+}
+.dashboard_page{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        color: green;
+    }
+}
+  
