@@ -4,12 +4,12 @@
 - [Adobe mock-up 🖼️](https://xd.adobe.com/view/1ae16609-6859-43e9-ab4e-5d697e85b003-4fb2/)
 
 ## Dependencies:
--HTML
--CSS
--SASS
--JS
--PHP
--MySQL
+- HTML
+- CSS
+- SASS
+- JS
+- PHP
+- MySQL
 Recommended Text Editor : Visual Studio Code
 
 
@@ -17,7 +17,7 @@ Recommended Text Editor : Visual Studio Code
 Insert the database file into your phpmyadmin database
 Once you run the `database file` , you should have one user in your database:
 
-### Tony Stark
+### Jonh Doe
 
 - First Name: `Jonh`
 - Last Name: `Doe`
@@ -35,7 +35,7 @@ cd CyimTest
 
 ### URL availables :
  - http://localhost 
- - http:http://localhost/Cyim/index.php?page=login_registration
+ - http://localhost/Cyim/index.php?page=login_registration
  - http://localhost/Cyim/index.php?page=login
  - http://localhost/Cyim/index.php?page=registration
  - http://localhost/Cyim/index.php?page=registration
