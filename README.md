@@ -1,7 +1,6 @@
 # Getting Started with CYIM Test Project
 
 **Useful links:**
-- [Rendu visuel ](https://ainalagrande.github.io/CyimTest/)
 - [Adobe mock-up 🖼️](https://xd.adobe.com/view/1ae16609-6859-43e9-ab4e-5d697e85b003-4fb2/)
 
 ## Stack Technique:
