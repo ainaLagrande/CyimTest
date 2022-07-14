@@ -28,21 +28,14 @@
 
     }
     .submit{
-        padding: 15px;
-        border-radius: 5px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: none;
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        cursor: pointer;
+        @include button;
         font-size: 18px;
         color: white;
         transition:all  0.3s ease-out ;
 
 
         &:hover{
-            background-color: $yellow;
+            background-color: $tertionary;
         }
     }
 }

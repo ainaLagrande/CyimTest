@@ -1,13 +1,8 @@
 $primaryColor: #EBDABE;
 $secondaryColor:#6461A7;
-$yellow:#FFA600;
-$secondaryCaolor:rgb(100, 97, 167);
-$yellsow:rgb(255, 166, 0);
-
-
-
+$tertionary:#FFA600;
+$queternary:#D7A1BA;
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -30,7 +25,7 @@ mark{
 }
 .yellow_link{
     width: 30%;
-    color: $yellow;
+    color: $tertionary;
     text-decoration: underline;
 
     &:hover{
@@ -55,10 +50,6 @@ li{
 .blue{
     background-color: #6461A7;
 }
-.pink{
-    background-color: #D7A1BA;
-}
-
 .formErrors{
     color: red;
 }
@@ -86,4 +77,21 @@ li{
         color: green;
     }
 }
-  
+
+@mixin button{
+    padding: 15px;
+    height: 25%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+}
+@mixin card{
+    padding: 20px;
+    line-height: 2em;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

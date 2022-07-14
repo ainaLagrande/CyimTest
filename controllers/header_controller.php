@@ -1,5 +1,6 @@
 <?php
+declare(strict_types=1);
 if(isset($_SESSION['auth'])) {
-    require_once './models/user_manager.php';
+    require './models/user_manager.php';
 }
 require './views/header.phtml';

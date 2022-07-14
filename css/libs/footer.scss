@@ -11,15 +11,7 @@
         font-size: 17px;
     }
     button{
-        padding: 15px;
-        height: 35px;
-        background-color: white;
-        border-radius: 5px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: none;
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        @include button;
         color: #4A4A4A;
         font-weight: 200;
         font-size: 15px;

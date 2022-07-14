@@ -74,7 +74,6 @@
 }
 // Asides 
 .aside_box{
-    // position: absolute;
     top: 85%;
     display: flex;
     justify-content: space-around;
@@ -82,12 +81,9 @@
     padding-bottom: 5%;
 
     .news_aside{
+        @include card;
         width: 40%;
         background-color: white;
-        padding: 20px;
-        line-height: 2em;
-        border-radius: 10px;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
     h4{
         color: $secondaryColor;

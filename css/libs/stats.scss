@@ -126,18 +126,11 @@
         }
     }
     button{
-        width: 45%;
-        height: 35px;
-        border-radius: 5px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: none;
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        background-color: $yellow;
+        @include button;
+        background-color: $tertionary;
         color: white;
-        font-size: 15px;
-
+        width: 45%;
+        
         &:hover{
             background-color:#fed485;
         }

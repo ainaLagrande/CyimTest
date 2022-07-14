@@ -25,15 +25,7 @@ header{
                 display: none;
             }
             button{
-                padding: 15px;
-                height: 35px;
-                background-color: white;
-                border-radius: 5px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                border: none;
-                box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+                @include button;
 
                 &:nth-child(1){
                     &:hover{
@@ -60,7 +52,7 @@ header{
                 width: 35%;
             }
             .yellow{
-                background-color: $yellow;
+                background-color: $tertionary;
                 a{
                     color: white;
                 }

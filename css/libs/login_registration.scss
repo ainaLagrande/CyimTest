@@ -8,7 +8,6 @@
     .login_registration_box{
         width: 80%;
     }
-
     .router_infos{
         display: flex;
         align-items: center;
@@ -24,8 +23,6 @@
         font-size: 30px;
         font-weight: 400;
     }
-
-
     .login_items_box{
         display: flex;
         justify-content: space-around;
@@ -33,32 +30,14 @@
         margin-top: 5%;
 
         .login_item{
+            @include card;
             width: 45%;
             height: 200px;
-            padding: 20px;
-            line-height: 2em;
-            border-radius: 10px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
 
-            &:nth-child(2){
-                justify-content: flex-start;
-                p{
-                    width: 75%;
-                    text-align: center;
-                }
-                button{
-                    &:hover{
-                        background-color:#EFD9E3;
-                    }
-                    &:hover a{
-                        color: #D7A1B1;
-                    }
-                }
-            }
             &:nth-child(1){
                 button{
                     &:hover{
@@ -69,24 +48,29 @@
                     }
                 }
             }
-
-
+            &:nth-child(2){
+                justify-content: flex-start;
+                p{
+                    width: 75%;
+                    text-align: center;
+                }
+                button{
+                    background-color: $queternary;
+                    &:hover{
+                        background-color:#EFD9E3;
+                    }
+                    &:hover a{
+                        color: #D7A1B1;
+                    }
+                }
+            }
         }
         button{
-            height: 35px;
-            padding: 15px;
-            border-radius: 5px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: none;
-            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-            cursor: pointer;
+            @include button;
             font-size: 18px;
             a{
                 color: white;
             }
-
         }
         .yellow_link{
             width: 100%;

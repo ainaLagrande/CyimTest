@@ -55,10 +55,6 @@ li {
   background-color: #6461A7;
 }
 
-.pink {
-  background-color: #D7A1BA;
-}
-
 .formErrors {
   color: red;
 }
@@ -115,14 +111,14 @@ header .header_box .header_buttons .menu {
 }
 header .header_box .header_buttons button {
   padding: 15px;
-  height: 35px;
-  background-color: white;
+  height: 25%;
   border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   border: none;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  cursor: pointer;
 }
 header .header_box .header_buttons button:nth-child(1):hover {
   background-color: #F7F0E5;
@@ -260,12 +256,12 @@ header .header_box .header_buttons .icon_connect {
   padding-bottom: 5%;
 }
 .aside_box .news_aside {
-  width: 40%;
-  background-color: white;
   padding: 20px;
   line-height: 2em;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 40%;
+  background-color: white;
 }
 .aside_box h4 {
   color: #6461A7;
@@ -475,17 +471,18 @@ header .header_box .header_buttons .icon_connect {
   font-weight: 500;
 }
 .stats_info button {
-  width: 45%;
-  height: 35px;
+  padding: 15px;
+  height: 25%;
   border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   border: none;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  cursor: pointer;
   background-color: #FFA600;
   color: white;
-  font-size: 15px;
+  width: 45%;
 }
 .stats_info button:hover {
   background-color: #fed485;
@@ -534,14 +531,14 @@ header .header_box .header_buttons .icon_connect {
 }
 .contact_us button {
   padding: 15px;
-  height: 35px;
-  background-color: white;
+  height: 25%;
   border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   border: none;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  cursor: pointer;
   color: #4A4A4A;
   font-weight: 200;
   font-size: 15px;
@@ -675,16 +672,22 @@ footer .mention i {
   margin-top: 5%;
 }
 .login_registration_page .login_items_box .login_item {
-  width: 45%;
-  height: 200px;
   padding: 20px;
   line-height: 2em;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 45%;
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+.login_registration_page .login_items_box .login_item:nth-child(1) button:hover {
+  background-color: #C1C0DC;
+}
+.login_registration_page .login_items_box .login_item:nth-child(1) button:hover a {
+  color: #6461A7;
 }
 .login_registration_page .login_items_box .login_item:nth-child(2) {
   justify-content: flex-start;
@@ -693,21 +696,18 @@ footer .mention i {
   width: 75%;
   text-align: center;
 }
+.login_registration_page .login_items_box .login_item:nth-child(2) button {
+  background-color: #D7A1BA;
+}
 .login_registration_page .login_items_box .login_item:nth-child(2) button:hover {
   background-color: #EFD9E3;
 }
 .login_registration_page .login_items_box .login_item:nth-child(2) button:hover a {
   color: #D7A1B1;
 }
-.login_registration_page .login_items_box .login_item:nth-child(1) button:hover {
-  background-color: #C1C0DC;
-}
-.login_registration_page .login_items_box .login_item:nth-child(1) button:hover a {
-  color: #6461A7;
-}
 .login_registration_page .login_items_box button {
-  height: 35px;
   padding: 15px;
+  height: 25%;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -757,6 +757,7 @@ footer .mention i {
 }
 .registration_page .submit {
   padding: 15px;
+  height: 25%;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -801,6 +802,7 @@ footer .mention i {
 }
 .login_page .submit {
   padding: 15px;
+  height: 25%;
   border-radius: 5px;
   display: flex;
   align-items: center;

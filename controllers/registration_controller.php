@@ -1,5 +1,6 @@
 <?php
-require_once './models/registration_manager.php';
+declare(strict_types=1);
+require './models/registration_manager.php';
 
 if(!empty($_POST)){
 
