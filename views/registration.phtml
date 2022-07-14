@@ -1,0 +1,16 @@
+<div class="registration_page">
+    <div class="registration_box">
+       <h2> Inscrivez-vous</h2>
+        <form method="POST"  enctype="multipart/form-data">
+            <span class='formSucces'><?php if(isset ($succes)){echo $succes;}?></span>
+            <input type="text" name="lastName" placeholder="Nom" class="inputs" required>
+            <input type="text" name="firstName" placeholder="Prénom" class="inputs" required>
+            <input type="email" name="email" placeholder="Email" class="inputs" required>
+
+            <input type="password" class="hide-pass inputs long-input" name="password" placeholder="Mot de Passe" required><br>
+            <span class='formErrors'><?php if(isset ($errors)){echo $errors;}?></span>
+            <!-- BUTTON SUBMITT  -->
+            <input type="submit" class="inputs submit blue" value="Créer mon compte"><br>
+        </form>
+    </div>
+</div>

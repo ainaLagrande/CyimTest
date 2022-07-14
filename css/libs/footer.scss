@@ -1,3 +1,42 @@
+.contact_us{
+    margin-top: 5%;
+    width: 100%;
+    background-color: $secondaryColor;
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 7vh;
+
+    p{
+        font-size: 20px;
+    }
+    button{
+        width: 20%;
+        height: 35px;
+        background-color: white;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        color: #4A4A4A;
+        font-weight: 200;
+        font-size: 15px;
+    }
+    .contact_us_box{
+        display: flex;
+        justify-content: flex-end;
+        width: 70%;
+    }
+    .contact_us_item{
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+        height: 100%;
+        align-items: center;
+    }
+}
 footer{
     padding-top: 3%;
     width: 100%;
@@ -6,6 +45,11 @@ footer{
     justify-content: center;
     align-items: flex-end;
     background-color: #F7F0E5;
+    
+    a{
+        color:$secondaryColor;
+
+    }
 
     .footer_box{
         display:flex;
@@ -17,6 +61,7 @@ footer{
             margin-top: 2%;
             width: 70%;
             line-height: 1.5em;
+            color:$secondaryColor;
         }
     }
     .footer_nav_box{
@@ -33,6 +78,8 @@ footer{
                 flex-wrap: wrap;
                 width: 100%;
                 line-height: 2em;
+                color:$secondaryColor;
+
             }
             li{
                 margin-left: 3%;
@@ -60,6 +107,8 @@ footer{
     hr{
         margin-top: 3%;
         width: 98%;
+        color:$secondaryColor;
+
 
     }
     .mention_box{

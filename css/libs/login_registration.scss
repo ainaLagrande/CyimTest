@@ -1,0 +1,81 @@
+.login_registration_page{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .login_registration_box{
+        width: 80%;
+    }
+
+    .router_infos{
+        display: flex;
+        align-items: center;
+    }
+    .home{
+        margin-right: 0.5%;
+    }
+    .title{
+        display: flex;
+        width: 80%;
+        margin-top: 1%;
+        color: $secondaryColor;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+
+    .login_items_box{
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin-top: 3.5%;
+
+        .login_item{
+            width: 30%;
+            height: 200px;
+            padding: 20px;
+            line-height: 2em;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            &:nth-child(2){
+                justify-content: flex-start;
+                p{
+                    width: 75%;
+                    text-align: center;
+                }
+            }
+
+
+        }
+        button{
+            height: 35px;
+            padding: 15px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            cursor: pointer;
+            font-size: 18px;
+             a{
+                color: white;
+             }
+        }
+        .yellow_link{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+        }
+    }
+
+}

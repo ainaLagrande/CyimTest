@@ -19,6 +19,9 @@ a{
     text-decoration: none;
     color: initial;
 }
+button, li, i{
+    cursor: pointer;
+}
 mark{
     background-color: #C1C0DC;
 }
@@ -37,4 +40,19 @@ mark{
 }
 li{
     list-style-type: none;
+}
+.beige{
+    background-color: #F7F0E5;
+}
+.blue{
+    background-color: #6461A7;
+}
+.pink{
+    background-color: #D7A1BA;
+}
+.formErrors{
+    color: red;
+}
+.formSucces{
+    color: green;
 }
